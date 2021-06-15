@@ -1,3 +1,7 @@
+<div style="width: 100%; text-align: center;">
+  <img src="./src/assets/images/sisig-barn-logo.png" alt="Sisig Bam brand logo" style="height: 200px; width: 200px; margin-bottom: 25px;" />
+</div>
+
 # Kiosk Web Application
 
 Kiosk Web Application for Sisig Bam
