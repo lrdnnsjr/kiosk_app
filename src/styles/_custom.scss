@@ -1,0 +1,63 @@
+* {
+  font-family: Poppins !important;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh !important;
+}
+
+// Container
+.container-fluid {
+  padding: 0 !important;
+}
+
+// Card
+.card {
+  border-radius: 0 !important;
+
+  img.brand-img {
+    height: 100px !important;
+    width: 100px !important;
+  }
+}
+
+// Food Menu
+.menu_container {
+  min-height: 100vh !important;
+  background-color: #eee !important;
+
+  .left_container,
+  .right_container {
+    min-height: 100vh !important;
+  }
+
+  .left_container {
+    background-color: #fff !important;
+
+    img {
+      height: 100px !important;
+      width: 100px !important;
+    }
+
+    .food_preview_container {
+      padding: 0 1rem !important;
+      margin-top: 5rem !important;
+      height: 70% !important;
+      width: 100% !important;
+
+      .food_preview {
+        background-color: #eee !important;
+        border-radius: 0.25rem !important;
+        display: flex;
+        height: 100% !important;
+      }
+    }
+  }
+
+  .right_container {
+  }
+}
