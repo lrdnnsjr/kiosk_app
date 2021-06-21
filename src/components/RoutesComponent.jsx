@@ -7,9 +7,13 @@ function RoutesComponent({ routes }) {
     <BrowserRouter>
       <Switch>
         {routes.map((route, index) => (
-          <Route path={route.path} name={route.name} exact={true} key={index}>
-            {route.component}
-          </Route>
+          <Route
+            path={route.path}
+            name={route.name}
+            component={route.component}
+            exact={true}
+            key={index}
+          />
         ))}
       </Switch>
     </BrowserRouter>
